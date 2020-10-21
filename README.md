@@ -10,7 +10,7 @@ WeatherApp JavaScript
 
 ### Main  
 
-<img src="https://github.com/Art3m198/WeatherApp/blob/main/images/1.PNG" width="50%" height="50%">  
+
 
 ## Demo:
 
