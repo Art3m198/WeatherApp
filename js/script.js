@@ -109,11 +109,14 @@ function getWeather(weather){
 			else if(weather == "Clouds"){
 				return "images/cloudy.svg"	
 			}
+			else if(weather == "Snow"){
+				return "images/snowy-5.svg"	
+			}
 			else if(weather == "Rain"){
 				return "images/rainy-6.svg"	
 			}
 			else if(weather == "Mist"){
-				return "images/snowy-4.svg"	
+				return "images/rainy-5.svg"	
 			}
 			else if(weather == "Clear"){
 				if(time<18 && time>6)
