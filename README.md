@@ -1,6 +1,6 @@
 # About
 
-Weather App JavaScript
+WeatherApp JavaScript
 
 - Auto Geo Location Detection 
 - Parsing weather-data using API from https://openweathermap.org/  
