@@ -90,7 +90,6 @@ cityName = document.getElementById('city').value;
 			document.getElementById('htemp').innerHTML = obj.main.temp_min+"°C";
 			document.getElementById('ltemp').innerHTML = obj.main.temp_max+"°C";
 			document.getElementById('wind').innerHTML = obj.wind.speed+" m/s";
-			document.getElementById('wind-img').style.transform = "rotate("+(obj.wind.deg-45)+"deg)";
 		}
 		else{
 			document.getElementById('listweather').style.visibility = 'invisible';
