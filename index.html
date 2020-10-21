@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="icon" href="http://faviconka.ru/ico/faviconka_ru_1009.png" type="image/x-icon">
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link href="css/style.css" rel="stylesheet" id="style-css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"/>
+<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+<title>WeatherApp</title>
+</head>
+<body onload="getLocation();">
+<div class="container mainw">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="heading">				
+				<img src="images/logo.png" />
+                WeatherApp
+			</div>
+		</div>	
+	</div>
+	<div class="list">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="row">
+					<div class="col-md-12">
+                        <div class="header" id="parse1">
+                        <input type="text" name="city" id="city" placeholder="Enter City Name" class="form-control">
+                            <button name="getWeather" id="getWeather" onclick="parseJson()" class="btn">Get Weather</button>
+                        </div>
+                        <div class="main" id="main">
+                        </div>
+					</div>
+                </div>	
+            </div>
+		</div>	
+    </div>
+</div>
+
+<div id="listweather" style="visibility: collapse;" class="container getweather">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="heading">
+                Weather
+			</div>
+		</div>	
+	</div>
+	<div class="winfo list">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="row">
+					<div class="col-md-12">
+                        <div class="header2">
+                            <div class="weather">
+								<div class="parrent">
+									<h3 class="child" id="City"></h3>
+									<img class="child " id="flag" width="40" height="40" />
+								</div>		
+								<div class="wimage">
+									<h4 id="Temperature" style="font-style: bold;"></h4>
+								</div>
+								<div class="parrent">
+									<img class="child" id="image"></img>
+									<h4 class="child" id="Climate"></h4>
+								</div>
+								<div class="parrent">
+								<div class="child"><p>Min</p><img id="temp_h" width="40" height="40" src="images/low.png"><p id="htemp"></p></div>
+								<div class="child"><p>Max</p><img id="temp_l" width="40" height="40" src="images/high.png"><p id="ltemp"></p></div>
+								<div class="child"><p>Wind</p><img width="40" height="40" src="images/nav.png" id="wind-img"><p id="wind"></p></div>
+								</div>
+							</div>
+					</div>
+				</div>
+			</div>
+		</div>
+            </div>
+			<p id="last_update"></p>
+		</div>	
+    </div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>

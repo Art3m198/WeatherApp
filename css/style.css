@@ -1,0 +1,106 @@
+* {
+    font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
+}
+.parent
+{
+  border: 1px solid black;
+
+}
+.child
+{
+  display: inline-block;
+  margin: 10px;
+}
+.getweather{
+  width: auto;
+  max-width:800px ;
+  padding:6%;
+  text-align:center;
+}
+.winfo{
+  padding: 5%;
+  background:#fff;
+  box-shadow: 0px 0px 4px 0px #b0b3b7;
+}
+
+.wimage{
+  text-align:center;
+}
+.wimage img{
+  border-radius:50%;
+}
+
+body{
+  background: linear-gradient(to right, #829de7 0%, #e9957b 100%);
+}
+.main{
+  width: auto;
+  margin-top: auto;
+  text-align:center;
+    }
+.mainw{
+  width: auto;
+  margin-top: 80px;
+	text-align:center;
+     }     
+.title{
+    margin-bottom:6px;}
+     
+.description{font-size:11px; font-family:Geneva, Arial, Helvetica, sans-serif;}
+    
+.heading{
+    background: #fff;
+		padding: 1%;
+		text-align: left;
+    box-shadow: 0px 0px 4px 0px #545b62;
+    }
+.heading img{
+		width: 10%;
+	}
+.list{
+		padding: 0;
+    background: #fff;
+		box-shadow: 0px 0px 4px 0px #b0b3b7;
+	}
+  
+  /* Style the header */
+  .header {
+    background: #ec814f;
+    padding: 30px 40px;
+    color: white;
+    text-align:center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Clear floats after the header */
+  .header:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .header2 {
+    background: transparent;
+    padding: 30px 40px;
+    color: rgb(5, 5, 5);
+    text-align:center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .btn {
+    padding: 10px;
+    width: auto;
+    background:#ff0844;
+    color: rgb(255, 255, 255);
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+  }
+  .btn:hover {
+    background-color: rgb(77, 226, 114);
+  }
