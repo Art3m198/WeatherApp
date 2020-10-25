@@ -4,7 +4,7 @@ WeatherApp JavaScript
 
 - Auto Geo Location Detection 
 - Parsing weather-data using API from https://openweathermap.org/  
-- App using jQuery, Bootstrap, CSS and HTML  
+- App use jQuery, Bootstrap, CSS and HTML  
 
 ## Screenshot
 
